@@ -19,7 +19,10 @@ django-admin startproject nombre .
 python manage.py startapp proveedores_app
 ```
 
-## Activar entorno
+## Correr proyecto
 ```
 python manage.py runserver
 ```
+
+python manage.py makemigrations
+python manage.py migrate
